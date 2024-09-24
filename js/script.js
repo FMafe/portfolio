@@ -10,7 +10,7 @@ projetos.forEach(projeto => {
     projetoItem.classList.add('projeto-item');
 
     projetoItem.innerHTML = `
-    <a >    
+    <a href="${projeto.link}" >    
         <img src="${projeto.imagem}" alt="${projeto.titulo}">
         <h3>${projeto.titulo}</h3>
     </a>
