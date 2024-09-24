@@ -1,4 +1,4 @@
-@media (min-width: 100px) and (max-width: 999px) {
+@media  (max-width: 999px) {
     body {
         width: 100%;
     }
