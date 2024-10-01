@@ -24,6 +24,8 @@
     --font-text-mobile: 1rem;
 }
 
+
+
 body {
     font-family: "Open Sans", sans-serif;
     background-color: var(--color-black);
@@ -33,10 +35,13 @@ body {
     min-height: 100vh;
 }
 
+
+
+
 .container {
     width: 100%;
     max-width: 1100px;
-    margin-top: 10px;
+    margin: 10px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -44,7 +49,7 @@ body {
     justify-content: center;
     gap: 1.4rem;
     box-sizing: border-box;
-    min-height: 100vh;
+   
 }
 
 .card {
@@ -53,7 +58,7 @@ body {
 
 /************** WIDGET 1*/
 .top {
-    min-width: 450px;
+    
     
     border-radius: 10px;
     display: flex;
@@ -162,7 +167,8 @@ a {
 }
 
 .projeto-item img {
-    width: 70%;
+    width: 120px;
+    height: 95px;
     
     border-radius: 8px;
 }
