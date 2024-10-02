@@ -170,8 +170,9 @@ a {
 }
 
 .projeto-item img {
-    width: 100%;
-    height: 90%;  
+    width: 90%;
+    height: 80%;
+    margin: 15px 10px;  
     object-fit: cover;
     transition: filter 0.5s ease;
     filter: grayscale(100%);
