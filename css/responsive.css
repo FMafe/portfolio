@@ -1,24 +1,43 @@
-@media  (max-width: 999px) {
+@media  (max-width: 767px) {
     body {
         width: 100%;
+    }
+
+    .container{
+        align-items: center;
+        padding: 5px;
+        margin: 15px;
+    }
+    .user{
+        align-items: center;
+        padding: 5px;
     }
 
     .content-user {
         display: flex;
         flex-direction: column;
-        margin: 15px 0;
+        margin: 15px 5px;
         
     }
 
+    .content-servicos h2 {
+       
+        text-align: center;
+    }
+
     .projetos-grid {
-        width: 80%;
-        
+        width: 100%;
         display: grid;
+        grid: auto-flow / 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        gap: 20px;
+        column-gap: 20px;
+        row-gap: 15px;
     }
     .content-servicos {
-        padding: 10px 20px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .skills {
