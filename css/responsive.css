@@ -34,7 +34,8 @@
         row-gap: 15px;
     }
     .content-servicos {
-        width: 450px;
+        position: relative;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;

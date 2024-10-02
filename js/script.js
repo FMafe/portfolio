@@ -10,9 +10,11 @@ projetos.forEach(projeto => {
     projetoItem.classList.add('projeto-item');
 
     projetoItem.innerHTML = `
-    <a href="${projeto.link}" >    
+    <a href="${projeto.link}" class="projeto-link" >    
         <img src="${projeto.imagem}" alt="${projeto.titulo}">
-        <h3>${projeto.titulo}</h3>
+        <div class="text-overlay">
+            <h3>${projeto.titulo}</h3>
+        </div>
     </a>
 
     `;
